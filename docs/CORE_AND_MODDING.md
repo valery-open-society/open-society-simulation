@@ -2,7 +2,7 @@
 
 **Status:** proposed architecture direction; no engine or modding tools have been implemented.
 
-The project should have a small, inspectable core that runs a virtual world. Communities should be able to add their own ideas through scenarios and modifications without changing that core. The core should provide shared technical foundations, not prescribe one social or economic model.
+The project should have one shared, inspectable world core that runs the simulation. It represents the common conditions every scenario uses: people and their needs, resources, land, flora and fauna, and ecological processes and limits such as carrying capacity. Communities add their own social systems around this foundation through scenarios and modifications, without replacing the shared core. The core provides common world conditions, not a prescribed social or economic model.
 
 ## What belongs in the core
 
@@ -10,13 +10,14 @@ The first core should stay deliberately small. Candidate responsibilities:
 
 - advance world time and process player or system actions;
 - represent characters, places, resources, services, and world state;
+- represent ecological conditions and limits, including land use, population pressures, and resource regeneration where the model supports them;
 - apply rules and events supplied by a scenario;
 - save, load, inspect, and export world state;
 - record enough configuration and events to explain and reproduce a run;
 - create checkpoints and branches so players can recover, compare alternatives, and change course;
 - expose a documented interface for compatible scenario packages.
 
-The core should not hard-code one allocation policy, political structure, cultural model, or definition of a successful society. Shared data types should support extension, and scenario authors should be able to state their assumptions and add new concepts.
+The core should not hard-code one allocation policy, political structure, cultural model, or definition of a successful society. Shared data types should support extension, and scenario authors should be able to state their assumptions and add new concepts. Separate scenarios may use the same core and comparable starting conditions while keeping their rule sets distinct and versioned.
 
 ## Scenarios and modifications
 
@@ -31,7 +32,7 @@ Each package should include a human-readable description and a machine-readable 
 
 ## Choosing and joining social experiments
 
-Players should be able to browse scenarios, understand what each one proposes, and choose which world to join. A scenario may be authored by an individual, a community, a research group, or an existing project. For example, The Venus Project could create a playable visualization of its own social vision. The project should host a plural catalogue, not certify every scenario's claims.
+Players should be able to browse scenarios, understand what each one proposes, and choose which community's social system to experience on the shared world core. A scenario may be authored by an individual, a community, a research group, or an existing project. For example, The Venus Project could create a playable visualization of its own social vision. The project should provide shared foundations and a public catalogue, not certify every scenario's claims.
 
 Before joining, players should be able to review:
 
@@ -41,6 +42,12 @@ Before joining, players should be able to review:
 - whether participation, data collection, or public sharing is optional.
 
 Players choose whether to join and should be able to leave. A scenario should preserve its stated rules and version for reproducibility while allowing a community to propose changes through transparent world governance.
+
+## Public results and comparison
+
+Communities should be able to publish scenario packages and result reports in an open catalogue so others can inspect, reproduce, and compare them. Reports should include the scenario and core versions, starting conditions, rules and parameters, evaluation criteria, outcome data, known omissions, and a record of revisions. Unsuccessful runs and negative results should remain publishable alongside successful ones.
+
+Do not collapse the result into a single universal success score. Communities should declare criteria before interpreting a run and may examine multiple dimensions such as meeting human needs, distribution and fairness, ecological health, resilience, and participant experience. Show trade-offs and uncertainty, and identify who chose the criteria. A result can be called successful only relative to the stated goals and this model's limits; it is not a final ranking of real social systems.
 
 ## Interpreting results beyond the game
 
