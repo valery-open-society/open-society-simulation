@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Open Society Simulation</title>
+  <desc id="desc">An open circular network around a shared central point.</desc>
+  <rect width="1024" height="1024" rx="512" fill="#102231"/>
+  <circle cx="512" cy="512" r="330" fill="none" stroke="#315463" stroke-width="24" stroke-linecap="round" stroke-dasharray="880 72 880 72" transform="rotate(-45 512 512)"/>
+  <g fill="none" stroke="#61D9BE" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M512 512 512 204"/>
+    <path d="M512 512 779 358"/>
+    <path d="M512 512 779 666"/>
+    <path d="M512 512 512 820"/>
+    <path d="M512 512 245 666"/>
+    <path d="M512 512 245 358"/>
+  </g>
+  <g fill="#F2F5E9" stroke="#102231" stroke-width="18">
+    <circle cx="512" cy="204" r="66"/>
+    <circle cx="779" cy="358" r="66"/>
+    <circle cx="779" cy="666" r="66"/>
+    <circle cx="512" cy="820" r="66"/>
+    <circle cx="245" cy="666" r="66"/>
+    <circle cx="245" cy="358" r="66"/>
+  </g>
+  <circle cx="512" cy="512" r="112" fill="#61D9BE" stroke="#102231" stroke-width="20"/>
+  <circle cx="512" cy="512" r="37" fill="#102231"/>
+</svg>
