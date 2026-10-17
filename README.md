@@ -33,7 +33,11 @@ These are working concepts, not a finalized specification. The first proposed re
 - **Reproducibility:** make it possible to rerun documented experiments and inspect how results were produced.
 - **Scientific integrity:** distinguish model outputs from evidence about the real world, and report uncertainty and limitations.
 - **Open collaboration:** welcome contributors across disciplines and backgrounds; develop project materials and decisions in the open.
-- **Free software:** the project intends to use a free/libre and open-source software license. No license has been selected yet, so the repository currently has no license grant.
+- **Free software:** software code in this repository is licensed under the GNU General Public License, version 3 or (at your option) any later version. See [LICENSE](LICENSE).
+
+## License
+
+The GNU GPL-3.0-or-later applies to software code in this repository. Documentation, datasets, and visual assets are not covered by that license unless a file states otherwise. Each contribution must respect the license and copyright terms stated for the files it changes.
 
 ## Relationship to existing ideas
 

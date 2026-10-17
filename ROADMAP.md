@@ -13,12 +13,12 @@ This roadmap describes the next decisions and deliverables for Open Society Simu
 
 ## 2. Establish project practices
 
-- Select a free/libre software license before accepting code contributions.
+- Publish the GNU GPL-3.0-or-later license for software code and clarify terms for documentation, data, and visual assets as the project develops.
 - Decide how contributors propose and review changes.
 - Document project governance and how disagreements are handled.
 - Identify a project contact for community and security reports.
 
-**Deliverable:** a repository with clear legal and contribution expectations.
+**Deliverable:** a repository with clear software licensing and contribution expectations.
 
 ## 3. Design a minimal prototype
 

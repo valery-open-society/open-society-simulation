@@ -15,17 +15,17 @@ Please avoid presenting a model output as a prediction or as proof that a policy
 
 ## Pull requests
 
-Once code contributions are enabled, keep each pull request focused and explain:
+Keep each pull request focused and explain:
 
 - what changed and why;
 - how the change relates to an agreed research question or model specification;
 - how it was checked, including any known limitations.
 
-Update documentation when a change affects assumptions, model behavior, inputs, outputs, or reproducibility. Do not include secrets, personal data, or data that you do not have permission to share.
+Code contributions are licensed under the GNU GPL-3.0-or-later, as described in [LICENSE](LICENSE). Contributors retain copyright in their contributions. Submit only work you created or are authorized to contribute, and identify third-party code and its license. Update documentation when a change affects assumptions, model behavior, inputs, outputs, or reproducibility. Do not include secrets, personal data, or data that you do not have permission to share.
 
 ## License status
 
-The project has not selected a software license or contribution terms yet. Until these are published, please use issues for ideas and feedback and do not submit code pull requests. The project will clarify how code and documentation contributions are licensed before accepting them.
+The software license is GNU GPL-3.0-or-later. Documentation, datasets, and visual assets have separate or unspecified terms unless a file says otherwise; please open an issue before submitting contributions that depend on reusing or relicensing those materials.
 
 ## Questions
 
