@@ -22,6 +22,8 @@ The first model may include:
 
 The first prototype should use synthetic data. It will compare allocation outcomes in one step; resource storage, multi-step dynamics, and recovery after a disruption are deferred to a later stage. Real-world data, money, markets, political institutions, complex behavior, and claims about particular populations are outside this initial experiment unless a later proposal justifies adding them.
 
+The prototype should run locally without an account, network connection, or project-operated service. Experiment inputs, configuration, and results should remain under the user's control and be saved in documented formats that can be copied and rerun elsewhere. Remote execution is outside the first prototype.
+
 ## Candidate allocation rules
 
 Candidate rules should be defined precisely before implementation. Initial examples for discussion:
