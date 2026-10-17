@@ -8,6 +8,8 @@ Players should be able to explore how a society works through ordinary activitie
 
 The game should be built around a small, neutral core that can host ideas from different communities. People should be able to create scenarios and modifications with visual tools, even if they do not program. The project should make it possible to combine compatible scenarios or move a world between them through explicit adapters, while keeping incompatible assumptions separate and visible. See the proposed [core and modding architecture](CORE_AND_MODDING.md).
 
+People should be able to explore a catalogue of clearly described social experiments and choose which world they want to join. A community, research group, or project such as The Venus Project could create a scenario that presents its own vision, assumptions, and rules in a playable form. Scenarios should be presented by their creators and compared on transparent terms; inclusion does not mean the game endorses a scenario or guarantees that it would work in real life.
+
 ## Intended experience
 
 A future playable version may let players:
@@ -18,7 +20,8 @@ A future playable version may let players:
 - experience how different rules for resources, work, services, and collective decisions affect daily life;
 - take part in changing those rules and observe consequences over time;
 - set warning indicators, preserve checkpoints, explore a different direction in a separate branch, and recover a world without erasing its earlier path;
-- create or adapt scenarios with no-code tools, then share them as portable packages.
+- create or adapt scenarios with no-code tools, then share them as portable packages;
+- choose a scenario, understand its assumptions and participation rules, and voluntarily join or leave its experiment.
 
 This is a direction, not a finished feature list. The first prototype should validate one small, understandable slice of this experience before the project commits to a large world or detailed social systems. The initial resource-allocation experiment remains useful as a small model of one system within that world, but it is not the whole product.
 
@@ -45,4 +48,8 @@ This is a direction, not a finished feature list. The first prototype should val
 ## Relationship to existing ideas
 
 The [Venus Project](https://www.thevenusproject.com/) discusses a resource-based economy and a systems approach to areas such as city design, food, water, energy, transportation, and education. These ideas can inspire scenarios to explore alongside alternatives. The game remains independent and must not present any one proposal as established fact or as the project's required ideology.
+
+## From virtual experience to real-world ideas
+
+The project hopes that people can use virtual worlds to explore ideas carefully and identify questions worth investigating. A scenario's results show what happened inside that model under its assumptions. They do not verify that the same system would work in a real society. Any proposal for real-world use needs evidence beyond the game, independent scrutiny, informed participation of affected communities, clear safeguards, and a cautious, reversible approach.
 

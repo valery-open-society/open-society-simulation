@@ -29,6 +29,25 @@ A scenario package may provide:
 
 Each package should include a human-readable description and a machine-readable manifest with its identifier, version, compatible core versions, dependencies, declared data types, and license/attribution. The package should be inspectable before installation and portable as a file. Users should be able to create, export, back up, and share packages without a project-operated account or service.
 
+## Choosing and joining social experiments
+
+Players should be able to browse scenarios, understand what each one proposes, and choose which world to join. A scenario may be authored by an individual, a community, a research group, or an existing project. For example, The Venus Project could create a playable visualization of its own social vision. The project should host a plural catalogue, not certify every scenario's claims.
+
+Before joining, players should be able to review:
+
+- the scenario's goals, assumptions, rules, and intended experience;
+- its creator, version, sources, and known limitations;
+- which data is stored by a local or community-hosted world;
+- whether participation, data collection, or public sharing is optional.
+
+Players choose whether to join and should be able to leave. A scenario should preserve its stated rules and version for reproducibility while allowing a community to propose changes through transparent world governance.
+
+## Interpreting results beyond the game
+
+The core must label outcomes as results of a model, not proof or prediction about real societies. It should let scenario authors disclose assumptions and sources, preserve versions, compare alternative runs, and show uncertainty and sensitivity to changed assumptions as these tools become available.
+
+Moving an idea from a virtual world into a real community requires evidence beyond gameplay. Any such proposal should receive independent review, involve affected people in deciding whether and how to proceed, define safeguards and measures in advance, protect participants' privacy, and begin cautiously with a reversible approach. The game can help surface hypotheses, trade-offs, and failure modes; it cannot by itself certify a social system as safe or successful in real life.
+
 ## Creation without programming
 
 The project should aim to provide a visual scenario editor so people can create and change worlds without writing code. Possible tools include forms and visual editors for characters, needs, places, resources, services, rules, events, and localization; reusable rule blocks; validation that explains errors in plain language; and a preview/playtest mode.
