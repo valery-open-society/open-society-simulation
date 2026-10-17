@@ -4,7 +4,7 @@
 
 **An open-source life simulation for exploring how people live together in different kinds of societies.**
 
-Open Society Simulation aims to become a playable virtual world where people can inhabit characters, take part in everyday life, and explore how a society's rules shape shared experience. Resource-allocation models and transparent experiments are tools within that world, not the whole experience. The project supports inquiry and discussion; it does not present one society as the correct answer.
+Open Society Simulation aims to become a playable virtual world where people can inhabit characters, take part in everyday life, and explore how a society's rules shape shared experience. All scenarios build on a common world core: people, resources, land, flora and fauna, and ecological limits such as carrying capacity. Communities can use that shared foundation to develop and compare different social systems. Resource-allocation models and transparent experiments are tools within that world, not the whole experience. The project supports inquiry and discussion; it does not present one society as the correct answer.
 
 > **Status:** project foundations. There is no playable game yet. The life-simulation direction is proposed; the first playable scope and technical design remain open.
 
@@ -18,13 +18,13 @@ The intended audience includes researchers, developers, students, and other inte
 
 The proposed game has five connected parts:
 
-1. **Virtual worlds and characters** where players can choose and inhabit different community-created social experiments.
-2. **Social and resource systems** covering needs, homes, services, work, production, and infrastructure.
-3. **A small, extensible core** that advances the world while leaving social rules and values open to scenarios.
+1. **A shared world core** representing people, resources, land, ecosystems, and the limits of the environment.
+2. **Community-created social systems** that build different rules, institutions, and daily life around the same core.
+3. **A small, extensible simulation engine** that advances the shared world while leaving social rules and values open to scenarios.
 4. **Scenario and mod tools** that let people create and adapt worlds with visual tools, without requiring programming.
 5. **Scenario interoperability** with explicit compatibility and adapters so compatible ideas can be combined without silently flattening differences.
 
-These are working concepts, not a finalized specification. Read the [project vision](docs/VISION.md) and the proposed [core and modding architecture](docs/CORE_AND_MODDING.md). Players should be able to explore a scenario without treating an in-game outcome as proof that the same idea will work in real life. The [initial experiment brief](docs/INITIAL_EXPERIMENT.md) defines a small resource-allocation model that may support one part of a future game. Model boundaries and implementation choices remain open.
+Communities should be able to publish scenario definitions and reproducible result reports, including unsuccessful outcomes, so others can inspect and compare them. “Success” must be assessed against disclosed, plural criteria and model limits, not reduced to one unexplained score. These are working concepts, not a finalized specification. Read the [project vision](docs/VISION.md) and the proposed [core and modding architecture](docs/CORE_AND_MODDING.md). A simulation result is evidence about a model run, not proof that the same idea will work in real life. The [initial experiment brief](docs/INITIAL_EXPERIMENT.md) defines a small resource-allocation model that may support one part of a future game. Model boundaries and implementation choices remain open.
 
 ## User control and deployment
 

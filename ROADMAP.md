@@ -7,8 +7,10 @@ This roadmap describes the next decisions and deliverables for Open Society Simu
 - Specify one small daily-life loop that a player can experience in a virtual community.
 - Decide which needs, activities, interactions, and shared resources belong in that first slice.
 - Define the smallest neutral core and scenario interface needed to host different community-created ideas.
+- Specify shared core concepts for people, resources, land, flora and fauna, ecological processes, and carrying capacity.
 - Design a scenario catalogue that explains each world's creator, assumptions, rules, sources, and limitations so players can choose where to participate.
 - Make joining and leaving a world voluntary, and preserve scenario versions so players can understand which rules shaped a run.
+- Define an open result-report format that includes success criteria, uncertainty, failures, and revisions, without reducing comparison to one universal score.
 - Keep the world and its social rules understandable, inspectable, and open to alternatives.
 - Use the initial resource-allocation experiment as a candidate subsystem, not as the whole game.
 
