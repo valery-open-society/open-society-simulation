@@ -2,11 +2,11 @@
 
 <img src="assets/open-society-simulation-avatar.png" alt="Open Society Simulation mark" width="220">
 
-**An open platform for exploring and comparing models of social organization.**
+**An open-source life simulation for exploring how people live together in different kinds of societies.**
 
-Open Society Simulation is an early-stage project to develop tools for describing social models, running transparent experiments, and comparing outcomes under stated assumptions. Its purpose is to support inquiry and discussion—not to encode one society as the correct answer.
+Open Society Simulation aims to become a playable virtual world where people can inhabit characters, take part in everyday life, and explore how a society's rules shape shared experience. Resource-allocation models and transparent experiments are tools within that world, not the whole experience. The project supports inquiry and discussion; it does not present one society as the correct answer.
 
-> **Status:** project foundations. There is no runnable simulation yet. The first research direction is agreed, while the detailed model and technical design remain open.
+> **Status:** project foundations. There is no playable game yet. The life-simulation direction is proposed; the first playable scope and technical design remain open.
 
 ## Why this project
 
@@ -16,19 +16,19 @@ The intended audience includes researchers, developers, students, and other inte
 
 ## What we aim to build
 
-The current concept has five parts:
+The proposed game has five connected parts:
 
-1. **Society models** describing people or populations, needs, resources, production, and infrastructure.
-2. **Configurable rules** for resource allocation, work, collective decision-making, and interaction.
-3. **A simulation engine** that advances a model over time and records its state.
-4. **Reproducible experiments** that specify initial conditions, rules, parameters, and random seeds where applicable.
-5. **Analysis tools** for examining and comparing outcomes using documented measures, such as needs met, resource use, environmental effects, and resilience.
+1. **Virtual worlds and characters** where players can inhabit a community and take part in everyday life.
+2. **Social and resource systems** covering needs, homes, services, work, production, and infrastructure.
+3. **Configurable social rules** for allocating resources, making collective decisions, and organizing shared life.
+4. **A simulation engine** that advances the world and its characters over time.
+5. **Tools for learning and comparison** that let players inspect assumptions, reproduce scenarios, and compare outcomes without treating a model as a real-world prediction.
 
-These are working concepts, not a finalized specification. The first proposed research track is a small synthetic community with finite resources; see the [initial experiment brief](docs/INITIAL_EXPERIMENT.md). Model boundaries, data needs, indicators, and implementation choices remain open.
+These are working concepts, not a finalized specification. Read the [project vision](docs/VISION.md) for the intended player experience. The [initial experiment brief](docs/INITIAL_EXPERIMENT.md) defines a small resource-allocation model that may support one part of a future game. Model boundaries and implementation choices remain open.
 
 ## User control and deployment
 
-The simulation is intended to run on a user's own computer and to be deployable on a server controlled by the user or their community. Using the project must not require a centrally operated service, account, or remote execution. Local runs should work without a network connection, and users should control their models, inputs, and results. See the [user control and deployment requirements](docs/USER_CONTROL.md).
+The game is intended to run locally and to support shared worlds on servers controlled by users or communities. Local play should work offline without an account. Players may register with a particular community server, but using the project must not require a central project account or remote execution service. Users and server operators should control their worlds and data. See the [user control and deployment requirements](docs/USER_CONTROL.md).
 
 The project will not operate a hosted service that runs simulations on users' behalf. That would substitute for software they can run and control themselves (*Service as a Software Substitute*, or SaaSS).
 
@@ -37,7 +37,7 @@ The project will not operate a hosted service that runs simulations on users' be
 - **Pluralism:** support exploration of different models and assumptions without privileging one ideology as the project's answer.
 - **Transparency:** document assumptions, rules, parameters, limitations, and changes.
 - **Reproducibility:** make it possible to rerun documented experiments and inspect how results were produced.
-- **User control:** support local execution and self-hosting; do not require a project-controlled service or account.
+- **User control:** support offline local play and self-hosted worlds; do not require a project-controlled service or central account.
 - **Scientific integrity:** distinguish model outputs from evidence about the real world, and report uncertainty and limitations.
 - **Open collaboration:** welcome contributors across disciplines and backgrounds; develop project materials and decisions in the open.
 - **Free software:** software code in this repository is licensed under the GNU General Public License, version 3 or (at your option) any later version. See [LICENSE](LICENSE).
