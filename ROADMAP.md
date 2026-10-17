@@ -7,6 +7,8 @@ This roadmap describes the next decisions and deliverables for Open Society Simu
 - Specify one small daily-life loop that a player can experience in a virtual community.
 - Decide which needs, activities, interactions, and shared resources belong in that first slice.
 - Define the smallest neutral core and scenario interface needed to host different community-created ideas.
+- Design a scenario catalogue that explains each world's creator, assumptions, rules, sources, and limitations so players can choose where to participate.
+- Make joining and leaving a world voluntary, and preserve scenario versions so players can understand which rules shaped a run.
 - Keep the world and its social rules understandable, inspectable, and open to alternatives.
 - Use the initial resource-allocation experiment as a candidate subsystem, not as the whole game.
 
@@ -51,6 +53,7 @@ This roadmap describes the next decisions and deliverables for Open Society Simu
 - Compare results across alternative rules and starting conditions.
 - Check whether measures are meaningful and whether important effects are omitted.
 - Document uncertainty, limitations, and unexpected results.
+- Treat game outcomes as model results and hypotheses, not proof of real-world success; require independent evidence and cautious, reversible review before considering real-world application.
 - Revise the model based on review and evidence.
 
 **Deliverable:** a documented experiment and an updated model specification.

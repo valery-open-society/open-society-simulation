@@ -18,13 +18,13 @@ The intended audience includes researchers, developers, students, and other inte
 
 The proposed game has five connected parts:
 
-1. **Virtual worlds and characters** where players can inhabit a community and take part in everyday life.
+1. **Virtual worlds and characters** where players can choose and inhabit different community-created social experiments.
 2. **Social and resource systems** covering needs, homes, services, work, production, and infrastructure.
 3. **A small, extensible core** that advances the world while leaving social rules and values open to scenarios.
 4. **Scenario and mod tools** that let people create and adapt worlds with visual tools, without requiring programming.
 5. **Scenario interoperability** with explicit compatibility and adapters so compatible ideas can be combined without silently flattening differences.
 
-These are working concepts, not a finalized specification. Read the [project vision](docs/VISION.md) and the proposed [core and modding architecture](docs/CORE_AND_MODDING.md). The [initial experiment brief](docs/INITIAL_EXPERIMENT.md) defines a small resource-allocation model that may support one part of a future game. Model boundaries and implementation choices remain open.
+These are working concepts, not a finalized specification. Read the [project vision](docs/VISION.md) and the proposed [core and modding architecture](docs/CORE_AND_MODDING.md). Players should be able to explore a scenario without treating an in-game outcome as proof that the same idea will work in real life. The [initial experiment brief](docs/INITIAL_EXPERIMENT.md) defines a small resource-allocation model that may support one part of a future game. Model boundaries and implementation choices remain open.
 
 ## User control and deployment
 
