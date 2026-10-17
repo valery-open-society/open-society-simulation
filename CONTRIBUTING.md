@@ -9,7 +9,8 @@ For a new feature, model, or major change in direction, open an [issue](https://
 - the question or problem the proposal addresses;
 - its assumptions and intended scope;
 - how its claims or outcomes could be evaluated;
-- relevant limitations or alternative explanations.
+- relevant limitations or alternative explanations;
+- whether it can run locally and be self-hosted, and what user data it handles.
 
 Please avoid presenting a model output as a prediction or as proof that a policy or social system will work in the real world.
 
@@ -22,6 +23,8 @@ Keep each pull request focused and explain:
 - how it was checked, including any known limitations.
 
 Code contributions are licensed under the GNU GPL-3.0-or-later, as described in [LICENSE](LICENSE). Contributors retain copyright in their contributions. Submit only work you created or are authorized to contribute, and identify third-party code and its license. Update documentation when a change affects assumptions, model behavior, inputs, outputs, or reproducibility. Do not include secrets, personal data, or data that you do not have permission to share.
+
+Features must not require a project-controlled remote service, account, or cloud execution. Proposals for networked features must explain how users can run and administer the feature on their own hardware or a server they control. Do not add telemetry or transmit experiment data by default.
 
 ## License status
 

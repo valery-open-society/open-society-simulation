@@ -26,11 +26,18 @@ The current concept has five parts:
 
 These are working concepts, not a finalized specification. The first proposed research track is a small synthetic community with finite resources; see the [initial experiment brief](docs/INITIAL_EXPERIMENT.md). Model boundaries, data needs, indicators, and implementation choices remain open.
 
+## User control and deployment
+
+The simulation is intended to run on a user's own computer and to be deployable on a server controlled by the user or their community. Using the project must not require a centrally operated service, account, or remote execution. Local runs should work without a network connection, and users should control their models, inputs, and results. See the [user control and deployment requirements](docs/USER_CONTROL.md).
+
+The project will not operate a hosted service that runs simulations on users' behalf. That would substitute for software they can run and control themselves (*Service as a Software Substitute*, or SaaSS).
+
 ## Principles
 
 - **Pluralism:** support exploration of different models and assumptions without privileging one ideology as the project's answer.
 - **Transparency:** document assumptions, rules, parameters, limitations, and changes.
 - **Reproducibility:** make it possible to rerun documented experiments and inspect how results were produced.
+- **User control:** support local execution and self-hosting; do not require a project-controlled service or account.
 - **Scientific integrity:** distinguish model outputs from evidence about the real world, and report uncertainty and limitations.
 - **Open collaboration:** welcome contributors across disciplines and backgrounds; develop project materials and decisions in the open.
 - **Free software:** software code in this repository is licensed under the GNU General Public License, version 3 or (at your option) any later version. See [LICENSE](LICENSE).

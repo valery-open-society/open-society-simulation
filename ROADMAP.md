@@ -24,12 +24,22 @@ This roadmap describes the next decisions and deliverables for Open Society Simu
 
 - Compare suitable implementation options against the research requirements.
 - Specify the model inputs, rules, outputs, and reproducibility requirements.
-- Build one small, documented scenario.
-- Make it possible to reproduce and inspect a run.
+- Build one small, documented scenario that runs locally without an account or network connection.
+- Keep experiment inputs and outputs under the user's control and in documented, exportable formats.
+- Document how to install, inspect, and run the software from source.
 
-**Deliverable:** a minimal prototype whose behavior can be explained and checked.
+**Deliverable:** a minimal local prototype whose behavior can be explained, inspected, and reproduced without a project-operated service.
 
-## 4. Evaluate and iterate
+## 4. Support user-controlled deployment
+
+- Document deployment on a server controlled by a user or community.
+- Do not build a project-operated service that runs simulations on behalf of users; prioritize local use and user-controlled deployment.
+- Before adding network-facing server components, review whether AGPL-3.0-or-later is appropriate; network copyleft does not replace local execution and self-hosting.
+- Make data flows explicit and keep telemetry off by default.
+
+**Deliverable:** users can choose local execution or administer their own deployment with control over models, inputs, and results.
+
+## 5. Evaluate and iterate
 
 - Compare results across alternative rules and starting conditions.
 - Check whether measures are meaningful and whether important effects are omitted.
