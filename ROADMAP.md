@@ -6,6 +6,7 @@ This roadmap describes the next decisions and deliverables for Open Society Simu
 
 - Specify one small daily-life loop that a player can experience in a virtual community.
 - Decide which needs, activities, interactions, and shared resources belong in that first slice.
+- Define the smallest neutral core and scenario interface needed to host different community-created ideas.
 - Keep the world and its social rules understandable, inspectable, and open to alternatives.
 - Use the initial resource-allocation experiment as a candidate subsystem, not as the whole game.
 
@@ -24,11 +25,13 @@ This roadmap describes the next decisions and deliverables for Open Society Simu
 
 - Compare suitable implementation options against the game vision and contributor capacity.
 - Build one small daily-life scenario that runs locally without an account or network connection.
+- Provide a visual no-code workflow to change and export a few scenario settings or rules.
+- Specify explicit compatibility metadata and an adapter path for combining or migrating between scenarios.
 - Make the virtual society's rules and simulation state inspectable and reproducible.
 - Keep world data under the user's control and document export and backup formats.
 - Document how to install, inspect, and run the software from source.
 
-**Deliverable:** a minimal local game slice that a person can play and understand without a project-operated service.
+**Deliverable:** a minimal local game slice with a small visual scenario editor that a person can play, customize, and understand without a project-operated service.
 
 ## 4. Support shared, user-controlled worlds
 
