@@ -1,6 +1,6 @@
 # Initial Experiment: Resource Allocation in a Small Community
 
-**Status:** agreed research direction; model details below are proposals for review, not implemented behavior.
+**Status:** candidate subsystem for the proposed life-simulation game; model details below are proposals for review, not implemented behavior.
 
 **Initial need categories:** water, food, and energy (selected for the first example). Units and numeric values will be synthetic and documented.
 
