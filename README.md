@@ -1,6 +1,6 @@
 # Open Society Simulation
 
-![Open Society Simulation mark](assets/open-society-simulation-avatar.png)
+<img src="assets/open-society-simulation-avatar.png" alt="Open Society Simulation mark" width="220">
 
 **An open platform for exploring and comparing models of social organization.**
 
@@ -38,19 +38,3 @@ These are working concepts, not a finalized specification. The first proposed re
 ## Relationship to existing ideas
 
 The project may examine ideas from a range of social and economic approaches. The [Venus Project](https://www.thevenusproject.com/) is one relevant source of ideas about resource management, systems design, and ecological sustainability. Its proposals may be modeled and examined alongside alternatives; they are not assumed conclusions of this project. Open Society Simulation is independent and is not affiliated with or endorsed by The Venus Project.
-
-## Scope and limitations
-
-A simulation is a simplified model, not a complete representation of society. Its results depend on assumptions, data, selected measures, and implementation. They must not be presented as proof that a social system will work in practice.
-
-The project has not selected a first scenario or committed to a particular economic, political, or social model. Those choices should be documented and open to review before implementation.
-
-## Next steps
-
-See the [project roadmap](ROADMAP.md) for the current sequence of work. The immediate priorities are to refine the initial experiment, define a small example model, and select a software license before accepting code contributions.
-
-## Participate
-
-The project is at an early stage. Feedback on its mission, scope, first research question, and modeling principles is welcome. Open an [issue](https://github.com/valery-open-society/open-society-simulation/issues) with a focused question or proposal. Before contributing, please read [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Please explain the problem you want to explore, the assumptions involved, and how a proposal could be evaluated. Project governance will be documented as the contributor community develops.
