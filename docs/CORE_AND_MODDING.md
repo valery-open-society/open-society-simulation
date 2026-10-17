@@ -13,6 +13,7 @@ The first core should stay deliberately small. Candidate responsibilities:
 - apply rules and events supplied by a scenario;
 - save, load, inspect, and export world state;
 - record enough configuration and events to explain and reproduce a run;
+- create checkpoints and branches so players can recover, compare alternatives, and change course;
 - expose a documented interface for compatible scenario packages.
 
 The core should not hard-code one allocation policy, political structure, cultural model, or definition of a successful society. Shared data types should support extension, and scenario authors should be able to state their assumptions and add new concepts.
@@ -44,6 +45,21 @@ Interoperability is a core project goal, but packages should not be assumed comp
 
 Where feasible, users should be able to combine compatible modules when creating a world, or export a world and import it into another scenario through an explicit migration/adapter. Preserve the source scenario, rule versions, and transformation details so results remain understandable. Never silently merge conflicting rules or treat one community's terms as universal.
 
+## Failure recovery and changing course
+
+The game should help players notice when a world is moving away from its stated goals and safely explore corrections. The core should provide:
+
+- **Visible indicators and alerts:** players or a community choose which conditions to track and set warning thresholds. An alert is a signal to investigate, not an automatic judgment that a society has failed.
+- **Checkpoints:** save a complete, portable snapshot of world state, scenario and mod versions, rules, and relevant event history.
+- **What-if branches:** create a separate branch from a checkpoint, change rules or decisions, and compare what follows without overwriting the original path.
+- **Forward correction:** edit rules or policy from the current point onward, record what changed and why, and preserve the earlier history.
+- **Restore or rollback:** return a world to a checkpoint when needed. Restoration should create a new, clearly labeled branch and keep the previous history available; it should not silently erase the path that players experienced.
+- **Comparison and review:** show the assumptions, interventions, and outcomes for the original and alternative branches side by side.
+
+In a shared world, rollback affects everyone. The server's community should decide who can propose, approve, and perform a restore. The world should record who initiated it, when it happened, the checkpoint used, and what was restored. Owners should communicate major restores to players. The default design should favor branching and transparent history over an untraceable rewind.
+
+This supports both recovery inside the game and learning from a failed experiment: players can preserve the original outcome, test a different course, and decide whether to continue from the new branch.
+
 ## Initial vertical slice
 
 Before building a large editor or multiplayer platform, validate a small local workflow:
@@ -52,7 +68,8 @@ Before building a large editor or multiplayer platform, validate a small local w
 2. change a few world settings with a visual, no-code editor;
 3. preview the effect in play;
 4. save and export the modified scenario as a portable package;
-5. load it again and reproduce the same starting world.
+5. load it again and reproduce the same starting world;
+6. save a checkpoint, branch the world, change a rule, and compare both paths without losing the original.
 
 The exact visual style, editor framework, and first rule blocks remain open design decisions.
 
@@ -63,4 +80,6 @@ The exact visual style, editor framework, and first rule blocks remain open desi
 - Which scenarios should be directly composable, and what does a useful adapter look like?
 - How should conflicting packages, dependencies, versions, and licenses be shown to creators?
 - How can the core validate packages and protect users from unsafe extensions?
+- Which early-warning indicators should a scenario author be able to define?
+- What restore and approval rules should shared-world communities be able to configure?
 

@@ -16,7 +16,8 @@ A future playable version may let players:
 - meet and cooperate with other characters, including characters controlled by other players in a shared world;
 - use homes, services, public spaces, and infrastructure supported by the world;
 - experience how different rules for resources, work, services, and collective decisions affect daily life;
-- take part in changing those rules and observe consequences over time.
+- take part in changing those rules and observe consequences over time;
+- set warning indicators, preserve checkpoints, explore a different direction in a separate branch, and recover a world without erasing its earlier path;
 - create or adapt scenarios with no-code tools, then share them as portable packages.
 
 This is a direction, not a finished feature list. The first prototype should validate one small, understandable slice of this experience before the project commits to a large world or detailed social systems. The initial resource-allocation experiment remains useful as a small model of one system within that world, but it is not the whole product.
@@ -35,6 +36,7 @@ This is a direction, not a finished feature list. The first prototype should val
 - Is the first prototype single-player, local co-op, or a small community server?
 - Which needs, relationships, activities, and shared services matter in that first slice?
 - How do players propose and change community rules?
+- How can players identify when a world is moving away from its stated goals and test a correction safely?
 - How should world owners handle moderation, backups, privacy, and shutdown or transfer of a world?
 - Which platform and visual style can contributors realistically build and maintain?
 - Which common scenario concepts should the core standardize, and which should remain community-defined?
