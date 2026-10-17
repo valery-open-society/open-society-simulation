@@ -28,6 +28,7 @@ This roadmap describes the next decisions and deliverables for Open Society Simu
 - Provide a visual no-code workflow to change and export a few scenario settings or rules.
 - Specify explicit compatibility metadata and an adapter path for combining or migrating between scenarios.
 - Make the virtual society's rules and simulation state inspectable and reproducible.
+- Add checkpoints and what-if branches to the local prototype so players can test a correction without losing the original path.
 - Keep world data under the user's control and document export and backup formats.
 - Document how to install, inspect, and run the software from source.
 
@@ -39,6 +40,7 @@ This roadmap describes the next decisions and deliverables for Open Society Simu
 - Let people register with a specific community world without requiring a central project identity service.
 - Do not build a project-operated service that runs simulations on behalf of users; prioritize local use and user-controlled deployment.
 - Document server administration, player-data handling, backups, moderation, and world transfer or shutdown.
+- Define transparent community procedures and permissions for restoring or branching a shared world.
 - Before adding network-facing server components, review whether AGPL-3.0-or-later is appropriate; network copyleft does not replace local execution and self-hosting.
 - Make data flows explicit and keep telemetry off by default.
 
