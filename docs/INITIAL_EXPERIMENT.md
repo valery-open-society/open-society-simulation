@@ -68,4 +68,4 @@ The [Venus Project](https://www.thevenusproject.com/) is one source of ideas abo
 - Which candidate allocation rules should be included in the first comparison?
 - What magnitude of supply reduction should the stress scenario use?
 - Which measures should be mandatory in the first report?
-- Which software license should apply before code contributions begin?
+- What terms should apply to experiment documentation and any datasets published with results?
