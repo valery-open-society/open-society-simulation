@@ -6,6 +6,8 @@ The project should have one shared, inspectable world core that runs the simulat
 
 ## What belongs in the core
 
+The engine should begin as a small, deterministic simulation loop with a narrow extension boundary: it loads a world state and scenario, advances one step, applies scenario-provided rules through a documented interface, and records the resulting state and events. This makes the core useful for the first experiment without hard-coding its allocation rules into the engine. Keep the first implementation simple enough to understand and replace parts without rewriting the whole simulation.
+
 The first core should stay deliberately small. Candidate responsibilities:
 
 - advance world time and process player or system actions;
@@ -16,6 +18,8 @@ The first core should stay deliberately small. Candidate responsibilities:
 - record enough configuration and events to explain and reproduce a run;
 - create checkpoints and branches so players can recover, compare alternatives, and change course;
 - expose a documented interface for compatible scenario packages.
+
+The first prototype needs only the subset required by its research question: a synthetic population, resource needs and supply, a choice of allocation rule, a single simulation step, and inspectable outputs. Visual editing, multiplayer, long-term ecology, and arbitrary code extensions can be added only when a later question requires them.
 
 The core should not hard-code one allocation policy, political structure, cultural model, or definition of a successful society. Shared data types should support extension, and scenario authors should be able to state their assumptions and add new concepts. Separate scenarios may use the same core and comparable starting conditions while keeping their rule sets distinct and versioned.
 
@@ -86,7 +90,7 @@ In a shared world, rollback affects everyone. The server's community should deci
 
 This supports both recovery inside the game and learning from a failed experiment: players can preserve the original outcome, test a different course, and decide whether to continue from the new branch.
 
-## Initial vertical slice
+## Future playable vertical slice
 
 Before building a large editor or multiplayer platform, validate a small local workflow:
 

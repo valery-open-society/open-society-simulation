@@ -2,9 +2,12 @@
 
 This roadmap describes the next decisions and deliverables for Open Society Simulation. It is a planning document, not a promise of dates. The project is at the foundation stage; no playable game has been implemented. The proposed player experience is described in the [project vision](docs/VISION.md).
 
-## 1. Define the first playable experience — in progress
+## 1. Define the first research question and playable direction — in progress
+
+Develop the project from small to large: settle a bounded research question and a reproducible model first, review what it can and cannot show, then expand toward a playable daily-life loop and broader world systems. Each stage should have a concrete deliverable and a review point; later stages remain proposals until the earlier work informs them.
 
 - Specify one small daily-life loop that a player can experience in a virtual community.
+- Review the proposed starting question: how do different resource-allocation rules affect basic-needs coverage and distribution in a small synthetic community under limited or disrupted supply?
 - Decide which needs, activities, interactions, and shared resources belong in that first slice.
 - Define the smallest neutral core and scenario interface needed to host different community-created ideas.
 - Specify shared core concepts for people, resources, land, flora and fauna, ecological processes, and carrying capacity.
@@ -25,7 +28,17 @@ This roadmap describes the next decisions and deliverables for Open Society Simu
 
 **Deliverable:** a repository with clear software licensing and contribution expectations.
 
-## 3. Design a minimal playable prototype
+## 3. Build the initial research prototype
+
+- Implement the bounded, one-step resource-allocation experiment in `docs/INITIAL_EXPERIMENT.md` using synthetic data.
+- Compare the proposed allocation rules under the same baseline and reduced-supply conditions.
+- Report allocations, unmet needs, coverage, and distribution as separate measures; do not rank scenarios with one universal score.
+- Make the run local, deterministic, inspectable, and reproducible from a documented configuration.
+- Record assumptions, limitations, and unsuccessful or unexpected outcomes for review.
+
+**Deliverable:** a small research prototype and reproducible report that can be reviewed before the project expands the model or commits to a larger playable scope.
+
+## 4. Design a minimal playable prototype
 
 - Compare suitable implementation options against the game vision and contributor capacity.
 - Build one small daily-life scenario that runs locally without an account or network connection.
@@ -35,10 +48,11 @@ This roadmap describes the next decisions and deliverables for Open Society Simu
 - Add checkpoints and what-if branches to the local prototype so players can test a correction without losing the original path.
 - Keep world data under the user's control and document export and backup formats.
 - Document how to install, inspect, and run the software from source.
+- Keep the first simulation engine focused on the smallest loop needed by the agreed experiment; add systems only when they serve a stated research or gameplay question.
 
 **Deliverable:** a minimal local game slice with a small visual scenario editor that a person can play, customize, and understand without a project-operated service.
 
-## 4. Support shared, user-controlled worlds
+## 5. Support shared, user-controlled worlds
 
 - Allow a user or community to host a persistent shared world on a server they control.
 - Let people register with a specific community world without requiring a central project identity service.
@@ -50,7 +64,7 @@ This roadmap describes the next decisions and deliverables for Open Society Simu
 
 **Deliverable:** players can choose local play or join a community world whose operator controls its server and data.
 
-## 5. Evaluate and iterate
+## 6. Evaluate and iterate
 
 - Compare results across alternative rules and starting conditions.
 - Check whether measures are meaningful and whether important effects are omitted.

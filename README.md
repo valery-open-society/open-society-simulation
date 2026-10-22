@@ -8,11 +8,21 @@ Open Society Simulation aims to become a playable virtual world where people can
 
 > **Status:** project foundations. There is no playable game yet. The life-simulation direction is proposed; the first playable scope and technical design remain open.
 
+New to the project? Read the public [project introduction](docs/PROJECT_INTRODUCTION.md).
+
 ## Why this project
 
 Ideas about how societies might organize resources, work, decision-making, and infrastructure are often discussed without a shared way to examine their assumptions and possible consequences. This project aims to make those assumptions explicit and help people explore, reproduce, and compare different approaches.
 
 The intended audience includes researchers, developers, students, and other interested participants. Simulation results should be treated as outputs of a model—not as predictions or policy recommendations for real societies.
+
+### Mission and research question
+
+**Mission:** build an open, user-controlled environment where people can create, inspect, and compare models of how societies organize shared life and resources.
+
+**Starting research question:** How do different resource-allocation rules affect the coverage and distribution of basic needs in a small synthetic community when supply is limited or disrupted?
+
+The project will develop from small, reviewable experiments toward richer playable worlds. Each step should answer a bounded question, make its assumptions visible, and provide a basis for deciding what to add next. This question scopes the first model; it does not define the whole game.
 
 ## What we aim to build
 
@@ -40,6 +50,7 @@ The project will not operate a hosted service that runs simulations on users' be
 - **User control:** support offline local play and self-hosted worlds; do not require a project-controlled service or central account.
 - **Scientific integrity:** distinguish model outputs from evidence about the real world, and report uncertainty and limitations.
 - **Open collaboration:** welcome contributors across disciplines and backgrounds; develop project materials and decisions in the open.
+- **Open research:** publish model assumptions, experiment configurations, criteria, limitations, revisions, and unsuccessful results in formats others can inspect and reproduce.
 - **Free software:** software code in this repository is licensed under the GNU General Public License, version 3 or (at your option) any later version. See [LICENSE](LICENSE).
 
 ## License

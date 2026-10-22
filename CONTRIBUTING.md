@@ -2,6 +2,8 @@
 
 Thank you for your interest in Open Society Simulation. The project is at an early, pre-implementation stage. Contributions that clarify the research question, model assumptions, measures, and project practices are especially useful now.
 
+The project is intended to grow from small, reviewable experiments toward a richer playable world. Feedback is welcome on the framing of the research question, the assumptions and measures, and the proposed scope—not only on code. A proposal should make clear what evidence or review could change its direction.
+
 ## Before proposing a change
 
 For a new feature, model, or major change in direction, open an [issue](https://github.com/valery-open-society/open-society-simulation/issues) first. Describe:
@@ -13,6 +15,8 @@ For a new feature, model, or major change in direction, open an [issue](https://
 - whether it can run locally and be self-hosted, and what user data it handles.
 
 Please avoid presenting a model output as a prediction or as proof that a policy or social system will work in the real world.
+
+Share relevant assumptions, sources, limitations, and alternative explanations with research proposals. Preserve unsuccessful results and superseded model versions when they help explain how conclusions changed. Keep review discussion open and tied to specific claims or design choices.
 
 ## Pull requests
 

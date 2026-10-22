@@ -21,10 +21,10 @@ A future playable version may let players:
 - take part in changing those rules and observe consequences over time;
 - set warning indicators, preserve checkpoints, explore a different direction in a separate branch, and recover a world without erasing its earlier path;
 - create or adapt scenarios with no-code tools, then share them as portable packages;
-- choose a scenario, understand its assumptions and participation rules, and voluntarily join or leave its experiment.
+- choose a scenario, understand its assumptions and participation rules, and voluntarily join or leave its experiment;
 - inspect public reports from other communities, including the setup, criteria, limitations, and unsuccessful runs.
 
-This is a direction, not a finished feature list. The first prototype should validate one small, understandable slice of this experience before the project commits to a large world or detailed social systems. The initial resource-allocation experiment remains useful as a small model of one system within that world, but it is not the whole product.
+This is a direction, not a finished feature list. The first research prototype can be a small local experiment that exercises a bounded model without claiming to be a playable game. A later playable prototype should validate one small, understandable slice of everyday life before the project commits to a large world or detailed social systems. The initial resource-allocation experiment remains useful as a small model of one system within that world, but it is not the whole product.
 
 ## Worlds, accounts, and user control
 

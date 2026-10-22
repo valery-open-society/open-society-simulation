@@ -12,6 +12,8 @@ This experiment is intended to compare explicit model rules under controlled ass
 
 ## Proposed scope
 
+This is the proposed first research prototype, not the full game. Its purpose is to establish a small, inspectable engine loop and test whether the experiment can be specified and reproduced before adding richer social behavior or a playable daily-life world.
+
 The first model may include:
 
 - a small synthetic population with differing, explicitly specified needs for water, food, and energy;
@@ -85,6 +87,10 @@ The thresholds, aggregation methods, and disruption scenario must be specified b
 ## Experimental controls and reproducibility
 
 When comparing rules, hold the population, needs, available supply, and shock scenario constant. Record all model parameters and, if stochastic behavior is later introduced, record the random seed. Publish the scenario definition with results so another person can reproduce the run.
+
+## Open research practice
+
+Treat the model and its findings as work in progress. Before interpreting results, state the question, assumptions, measures, and comparison conditions. Keep the scenario definition and outputs together; record changes to rules and parameters; and make unsuccessful runs and limitations available for review. Invite feedback on the model's framing and measures as well as its implementation. Do not describe agreement with the model's assumptions as endorsement of a social proposal.
 
 ## Assumptions and limitations to document
 
